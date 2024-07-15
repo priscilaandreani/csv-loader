@@ -29,7 +29,3 @@ This project demonstrates how to efficiently load and process large CSV files us
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues for discussion.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
