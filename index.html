@@ -3,9 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSV Loader</title>
   </head>
   <body>
-    hey
+    <form action="#" id="form">
+      <div class="form-group">
+        <label for="description">Description</label>
+        <input type="text" name="description" id="description" />
+      </div>
+
+      <div class="form-group">
+        <label for="csv-file">CSV File</label>
+        <input type="file" name="csv-file" id="csv-file" accept=".csv" />
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" name="worker" id="worker" checked />
+        <label for="worker">Should use worker threads? </label>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="Search" id="button" />
+        <input type="reset" value="Reset" />
+      </div>
+
+      <div class="form-group">
+        <output id="file-size"></output>
+      </div>
+
+      <div class="form-group">
+        <label for="progress">Processing progress:</label>
+        <progress id="progress" name="progress" value="0" max="100">
+          0%
+        </progress>
+      </div>
+
+      <div class="form-group">
+        <output id="debug"></output>
+      </div>
+    </form>
+
+    <script src="src/index.js" type="module"></script>
   </body>
 </html>
