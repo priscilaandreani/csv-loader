@@ -23,7 +23,7 @@ This project demonstrates how to efficiently load and process large CSV files us
 ## Getting Started
 
 1. Clone the repository.
-2. Open `index.html` in your browser.
+2. Run `npm start`.
 3. Select a CSV file to upload and start the processing.
 
 ## Contributing
